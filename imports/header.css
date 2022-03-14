@@ -1,0 +1,101 @@
+.header{
+     min-height: 100vh;
+     width: 100%;
+     background-image: url('/header.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: relative;
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8% 0 6%;
+}
+
+.logo{
+    font-size: 30px; 
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+}
+
+i{
+    color: #d17;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #d17;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.life-header{
+    color: #fff;
+    margin: 20px;
+    font-size: 75px;
+    margin: 0;
+}
+
+.title{
+    margin: 20px;
+    color: #fff;
+    font-size: 30px;
+    margin: 0; 
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h1 em {
+    color: #d17;
+}
+
+.Header-Two{
+     position: absolute;
+     top: 40%;
+     left: 5%;
+}
+
+ .form form{
+    position: relative;
+    max-width: 100%;
+    width: 380px;
+}
+
+ .form form .form-one{
+    display: block;
+    width: 100%;
+    padding: 14px 100px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+} 
+.btn a{
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    background-color: #d17;
+    color: #fff;
+    font-style: oblique;
+    border-radius: 20px;
+    top: 6px;
+    right: 6px;
+    text-decoration: none;
+} 

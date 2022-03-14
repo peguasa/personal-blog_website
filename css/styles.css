@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300;1,600;1,700&display=swap');
+@import url('/imports/header.css');
+@import url('/imports/footer.css');
+@import url('/imports/card.css');
+@import url('/imports/form.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+
+.fieldset{
+     width: 500px;
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .fieldset hr{
+     margin: 0 auto 0 auto;
+     width: 40%;
+ }
+
+ .left{
+     float: left;
+ }
+
+ .right{
+     float: right;
+ }
+
+ .row-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+ }
+
+ .row-container{
+     display: grid;
+     gap: 15px;
+     grid-template-rows: repeat(3, 1fr);
+     margin: 30px 0 0 0;
+ } 
+
+
+.row-image{
+    width: 100%;
+    height: auto;
+    padding: 0 20px 0;
+    display: block;
+    margin: 0 auto;
+    flex-basis: 32%;
+    overflow: hidden;
+}
+.row-img img{
+    width: 100%;
+}
+.row-card{
+    display: flex;
+    overflow:hidden
+    }
+
+.row-header{
+    font-weight: 500;
+    font-style: oblique;
+    color: #000;
+}
+
+.row-card-body a{
+    text-decoration: none;
+    color: #000;
+}
+
+.row-card-body{
+    height: auto;
+    margin: 0 10px 0 20px;
+    text-align: justify;
+}
+.row-card-body p {
+    width: 400px;
+    word-break: break-all;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 960px){
+    .header{
+        min-width:100%;
+        background-position: center;
+    }
+    nav{
+        padding: 17px;
+    }
+    .logo {
+        font-size: 20px;
+        display: flex;
+    }
+      nav ul li {
+        font-size: 17px;
+    }  
+    .life-header{
+    margin: 5px 0 0 0;
+    font-size: 35px;
+    max-width: 5px;
+    display: inline;
+    }
+     .title{
+    margin: 20px;
+    font-size: 18px;
+    margin: 0; 
+    }
+    .form form{
+    width: 250px;
+    margin: 10px 0 30px 0;
+    align-items: right;
+
+    }
+     .form form .form-one{
+    width: 100%;
+    padding: 4px 50px 8px 10px;
+    border-radius: 30px;   
+    }
+
+    .btn a{
+    padding: 1px 10px;
+    }
+
+    h1{
+    margin: 30px 0 10px 0;
+    font-size: 25px;
+    }
+
+    .wrapper{
+        max-width: 80%;
+    }
+
+    .grid {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 1fr;
+     }
+
+    .row-wrapper{
+    max-width: 80%;
+     }
+
+    .row-card{
+    display: block;
+    }
+
+    .row-card-body p{
+        width: 250px;
+    }
+    .row-img{
+        width: 70%;
+    }
+}
+
+ @media  (min-width: 820px) {
+    .header{
+        width: 100vw;
+    }
+    .life-header{
+    margin: 5px 0 0 0;
+    font-size: 50px;
+    max-width: 5px;
+    display: inline;
+    }
+    .header{
+     height: 100vh;
+     width: auto;
+     background-image: url('/images/header.jpg');
+     background-size: cover;
+     background-repeat: no-repeat; 
+     background-position: center;
+     position: relative; 
+} 
+} 

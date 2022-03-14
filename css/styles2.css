@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300;1,600;1,700&display=swap');
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -12,11 +10,13 @@ body{
     font-family: "Poppins", "sans-serif";
 }
 
+
+
+/*--------------------HEADER & NAVIGATION-------------- */
 .navbar {
     height: 70px;
     background-color: #fff;
     color: black;
-    /* box-shadow: 3px 5px 2px 3px #353535; */
 }
 
 .container{
@@ -65,7 +65,7 @@ i{
 }
 
 .grid-header .left{
-  background-image: url('./wellness\ boy.jpg');
+  background-image: url('/images/wellness\ boy.jpg');
   background-size: cover;
   height: 60vh;
   background-position: center;
@@ -87,7 +87,6 @@ span{
 .author-link{
   text-decoration: none;
   color: black;
-
 }
 
 @media only screen and (max-width:768px){
@@ -98,9 +97,9 @@ span{
        font-size: 16px;
      }
      .container ul li{
-   padding: 5px 5px;
-   font-size: 1.1em;
-  }
+       padding: 5px 5px;
+       font-size: 1.1em;
+       }
 }
 
 .grid-two{
@@ -128,7 +127,8 @@ span{
   padding: 20px;
   height: 55vh;
 }
- i {
+
+i {
   margin: 6px;
 }
 
@@ -148,20 +148,24 @@ span{
   line-height: 2;
   font-size: 1.4em;
 }
+
 .span-post-two{
  padding: 50px 0;
  font-size: 1.1;
  line-height: 1.8;
 }
+
  .pictures{
   margin: 50px 0 0 0; 
   position: relative;
   top: 10%;
   left: 30%;
   }
+
   figcaption{
     text-align: center;
   }
+
   .title{
     margin: 50px 0 10px 0;
     text-align: center;
@@ -170,18 +174,17 @@ span{
   }
 
   footer{
-    background: black;
+    background: whitesmoke;
     padding: 30px 0 0 0;
   }
   .footer{
-    max-width: 900px;
+    max-width: 800px;
     height: auto;
     margin: auto; 
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1c40f;
   }
 
   .form{
@@ -194,15 +197,15 @@ span{
 
   .footer2 p{
      padding: 20px 0 0 0;
-     color: #fff;
+     color: black;
      font-size: 15px;
   }
   .textbox{
     flex: 1;
     padding: 10px 40px;
     font-size: 16px;
-    color: aqua;
-    background: #d17;
+    color: black; 
+    background: white; 
     border: none;
     font-weight: 700;
     outline: none;
@@ -210,19 +213,20 @@ span{
     min-width: 90px;
   }
   .btn{
-    padding: 10px 40px;
+    padding: 5px 5px;
     font-size: 1.1em;
-    color: #fff;
-    background: #73c6b6;
+    color: black;
+     background: #d17;
     border: none;
-    font-weight: 700;
+    font-weight: 500;
     outline: none;
     border-radius: 20px;
     margin: 0;
     cursor: pointer;
-  }
+  } 
   .btn:hover{
-    background-color: #f1c40f;
+    transform: scale(1.1);
+    transition: 0.5s;
   }
   .social-media{
     margin: 20px 0px;
@@ -230,32 +234,33 @@ span{
   }
   
   .social-media a{
-    color: #fff;
     margin: 0 25px 0 0;
     font-size: 22px;
-    text-decoration: none;
-    transition: 0.5s;
-  }
+  } 
   
 @media only screen and (max-width:768px){
       .grid-two{
        grid-template-columns: 1fr;
      }
+
       .span-post{
        font-style: italic;
         line-height: 0.5;
        font-size: 1em;
        width: 100%
-}
+      }
+
     .pictures{
   margin: 100px 0 0 0; 
   position: inherit;
   top: 0;
   right: 0;
-  
+  }
 }
-.footer1{
-    margin: 40px;
+
+@media screen and (max-width:960px){
+  .footer{
+    max-width: 300px; 
   }
 }
 
