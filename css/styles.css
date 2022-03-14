@@ -17,19 +17,13 @@
      width: 500px;
      text-align: center;
      vertical-align: middle;
- }
+     font-size: 30px;
+     margin: 150px 0 0 0;
+ } 
 
- .fieldset hr{
+ .fieldset{
      margin: 0 auto 0 auto;
      width: 40%;
- }
-
- .left{
-     float: left;
- }
-
- .right{
-     float: right;
  }
 
  .row-wrapper{
@@ -172,7 +166,7 @@
     .header{
      height: 100vh;
      width: auto;
-     background-image: url('/images/header.jpg');
+     background-image: url(/images/header.jpg);
      background-size: cover;
      background-repeat: no-repeat; 
      background-position: center;
