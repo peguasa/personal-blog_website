@@ -1,0 +1,28 @@
+.form form{
+    position: relative;
+    max-width: 100%;
+    width: 380px;
+}
+
+ .form form .form-one{
+    display: block;
+    width: 100%;
+    padding: 14px 100px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+} 
+.btn a{
+    display: inline-block;
+    position: absolute;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    background-color: #d17;
+    color: #fff;
+    font-style: oblique;
+    border-radius: 20px;
+    top: 6px;
+    right: 6px;
+    text-decoration: none;
+}

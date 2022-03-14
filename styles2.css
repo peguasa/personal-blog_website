@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300;1,600;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", "sans-serif";
+}
+
+.navbar {
+    height: 70px;
+    background-color: #fff;
+    color: black;
+    /* box-shadow: 3px 5px 2px 3px #353535; */
+}
+
+.container{
+  max-width: 95%; 
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.container ul li{
+   display: inline-block;
+   list-style-type: none;
+   padding: 10px 25px;
+   color: black;
+   font-size: 1.1em;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container ul li a:hover{
+    color: #d17;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.logo{
+    font-size: 20px; 
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+
+i{
+    color: #d17;
+}
+
+.grid-header{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid-header .left{
+  background-image: url('./wellness\ boy.jpg');
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid-header .right{
+  background-color: whitesmoke;
+}
+
+.content-box{
+  position: relative;
+  top: 30%;
+  margin-left: 20px;
+}
+
+span{
+  font-weight: 500;
+}
+.author-link{
+  text-decoration: none;
+  color: black;
+
+}
+
+@media only screen and (max-width:768px){
+     .grid-header{
+       grid-template-columns: 1fr;
+     }
+     .logo{
+       font-size: 16px;
+     }
+     .container ul li{
+   padding: 5px 5px;
+   font-size: 1.1em;
+  }
+}
+
+.grid-two{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.blog-post {
+  width: 80%;
+  margin: 5em auto;
+}
+
+.subhead:first-child:first-letter{
+  font-style: italic;
+  padding: 0 0.3rem;
+  margin: 0 0.3rem 0 0;
+  font-size: 4rem;
+  float: left;
+  line-height: 1;
+}
+
+.author-info{
+  background-color: whitesmoke;
+  margin: 5em auto;
+  padding: 20px;
+  height: 55vh;
+}
+ i {
+  margin: 6px;
+}
+
+.avatar{
+  width: 40%;
+  border-radius: 60%;
+  height: 40%;
+}
+
+.avatar-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.span-post{
+  font-style: italic;
+  line-height: 2;
+  font-size: 1.4em;
+}
+.span-post-two{
+ padding: 50px 0;
+ font-size: 1.1;
+ line-height: 1.8;
+}
+ .pictures{
+  margin: 50px 0 0 0; 
+  position: relative;
+  top: 10%;
+  left: 30%;
+  }
+  figcaption{
+    text-align: center;
+  }
+  .title{
+    margin: 50px 0 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  footer{
+    background: black;
+    padding: 30px 0 0 0;
+  }
+  .footer{
+    max-width: 900px;
+    height: auto;
+    margin: auto; 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1c40f;
+  }
+
+  .form{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer2 p{
+     padding: 20px 0 0 0;
+     color: #fff;
+     font-size: 15px;
+  }
+  .textbox{
+    flex: 1;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: aqua;
+    background: #d17;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 20px;
+    min-width: 90px;
+  }
+  .btn{
+    padding: 10px 40px;
+    font-size: 1.1em;
+    color: #fff;
+    background: #73c6b6;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #f1c40f;
+  }
+  .social-media{
+    margin: 20px 0px;
+    padding: 0 0 0 20px;
+  }
+  
+  .social-media a{
+    color: #fff;
+    margin: 0 25px 0 0;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+@media only screen and (max-width:768px){
+      .grid-two{
+       grid-template-columns: 1fr;
+     }
+      .span-post{
+       font-style: italic;
+        line-height: 0.5;
+       font-size: 1em;
+       width: 100%
+}
+    .pictures{
+  margin: 100px 0 0 0; 
+  position: inherit;
+  top: 0;
+  right: 0;
+  
+}
+.footer1{
+    margin: 40px;
+  }
+}
+
+
+
+
