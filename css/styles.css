@@ -73,7 +73,7 @@
     margin: 0 10px 0 20px;
     text-align: justify;
 }
-.row-card-body p {
+.row-card-body p{
     width: 400px;
     word-break: break-all;
     text-align: left;
@@ -82,8 +82,9 @@
 
 @media only screen and (max-width: 960px){
     .header{
-        min-width:100%;
+        width:100%;
         background-position: center;
+        height: auto;
     }
     nav{
         padding: 17px;
@@ -148,14 +149,20 @@
     .row-card-body p{
         width: 250px;
     }
+
     .row-img{
         width: 70%;
+    }
+
+    .fieldset{
+        font-size: 20px;
     }
 }
 
  @media  (min-width: 820px) {
     .header{
-        width: 100vw;
+        width: 100%;
+        height: auto;
     }
     .life-header{
     margin: 5px 0 0 0;
@@ -164,12 +171,12 @@
     display: inline;
     }
     .header{
-     height: 100vh;
-     width: auto;
+     height: auto;
+     width: 100%; 
      background-image: url(/images/header.jpg);
      background-size: cover;
      background-repeat: no-repeat; 
      background-position: center;
      position: relative; 
-} 
+    }
 } 
