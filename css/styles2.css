@@ -134,7 +134,7 @@ i {
 
 .avatar{
   width: 40%;
-  border-radius: 60%;
+  border-radius: 100%;
   height: 40%;
 }
 
@@ -155,11 +155,19 @@ i {
  line-height: 1.8;
 }
 
- .pictures{
-  margin: 50px 0 0 0; 
-  position: relative;
-  top: 10%;
-  left: 30%;
+figure{
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+ .pictures figure{
+  width: 100%;
+  height: auto;
+  padding: 0 20px 0;
+  display: block;
+  margin: 0 auto;
+  flex-basis: 32%;
+  overflow: hidden;
   }
 
   figcaption{
@@ -239,23 +247,44 @@ i {
   } 
   
 @media only screen and (max-width:768px){
-      .grid-two{
+    .grid-two{
        grid-template-columns: 1fr;
-     }
+    }
 
-      .span-post{
+    .span-post{
        font-style: italic;
-        line-height: 0.5;
+       line-height: 0.5;
        font-size: 1em;
        width: 100%
-      }
+    }
 
     .pictures{
-  margin: 100px 0 0 0; 
-  position: inherit;
-  top: 0;
-  right: 0;
-  }
+      display: block;
+      margin: 0 auto;
+      padding: 5px;
+      width: 100%;
+    }
+
+    figure{
+      text-align: center;
+    } 
+    .footer{
+      display: flex;
+      flex: 1;
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .textbox{
+      padding: 5px 20px;
+    }
+    .btn{
+      padding: 3px 3px;
+    }
+    .social-media a{
+      margin: 10px 0px;
+      padding: 0 0 0 10px;
+    }
 }
 
 @media screen and (max-width:960px){
